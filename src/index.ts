@@ -15,3 +15,6 @@ const handleUserClick = (user: { name: string; age: number, email: string }, use
 };
 
 handleUserClick(user, users)
+
+// fazer o lint-staged e colocar o prettier no ci (praticar) depois fazer o arquivo da conversa
+// utilizar as duas formas do eslint + prettier (evitar conflitos ja usado e mesclar eslint com prettier)
