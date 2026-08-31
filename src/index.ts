@@ -16,5 +16,4 @@ const handleUserClick = (
 };
 handleUserClick(user, users);
 
-// colocar o prettier no ci (praticar) depois fazer o arquivo da conversa
 // utilizar as duas formas do eslint + prettier (evitar conflitos ja usado e mesclar eslint com prettier)

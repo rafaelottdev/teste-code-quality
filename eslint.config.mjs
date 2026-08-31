@@ -1,7 +1,9 @@
 import { defineConfig, globalIgnores } from "eslint/config"
 import nextVitals from "eslint-config-next/core-web-vitals"
 import nextTs from "eslint-config-next/typescript"
+
 import prettier from "eslint-config-prettier"
+// import prettierRecommended from "eslint-plugin-prettier/recommended"
 
 export default defineConfig([
   ...nextVitals,
@@ -40,5 +42,6 @@ export default defineConfig([
     },
   },
 
+  // prettierRecommended, recomendado utilizar o prettier separado do eslint
   prettier,
 ])
