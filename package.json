@@ -9,7 +9,8 @@
     "lint": "eslint src",
     "format": "prettier src --write",
     "format:check": "prettier src --check",
-    "prepare": "husky"
+    "prepare": "husky",
+    "check": "biome check src"
   },
   "dependencies": {
     "next": "16.3.2",
@@ -17,6 +18,7 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.11",
     "@eslint/js": "^9.39.5",
     "@types/node": "^20",
     "@types/react": "^19",
